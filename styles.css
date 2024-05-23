@@ -1,0 +1,57 @@
+/* Style for the message container */
+.message-container {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style for the message text */
+.message-text {
+    /* color: #333; */
+    font-size: 16px;
+    line-height: 1.4; /* Increase line height for better readability */
+}
+
+.yellow-shape {
+    background-color: yellow; width: 1.5em; height: 1.5em;
+}
+
+
+.extension-container {
+    width: 300px;
+    background-color: #f2f2f2;
+}
+body {
+    
+    /* height: 480px; */
+    transform-origin: left top;
+    overflow: hidden;
+    font-family: arial, "Microsoft YaHei";
+    font-size: 16px;
+    cursor: default;
+    user-select: none;
+}
+.red-shape {
+    background-color: red; width: 1.5em; height: 1.5em;
+}
+.green-shape{
+    background-color: green; width: 1.5em; height: 1.5em;
+}
+#title-container {
+    display:flex;
+    flex-direction: row; align-items: center;
+    
+}
+#article-container {
+    display:flex;
+    flex-direction: row; align-items: center;
+    
+}
+#sources-container {
+    display:flex;
+    flex-direction: row; align-items: center;
+    
+}

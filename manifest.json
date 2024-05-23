@@ -1,0 +1,27 @@
+{
+    "name": "api call extension",
+    "version": "1.0",
+    "description": "This is an extension to try an api call",
+    "manifest_version": 3,
+    "author": "Juanma",
+    "permissions": ["activeTab", "webRequest"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "logo3.png",
+            "48": "logo3.png",
+            "128": "logo3.png"
+        }
+    },
+        
+        "content_scripts": [
+            {
+                "matches": ["<all_urls>"],
+                "js": ["content.js"]
+            }
+        ]
+    }
+    
